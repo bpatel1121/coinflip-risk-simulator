@@ -46,9 +46,11 @@ This is similar to “bet 10% of your account on every trade” in a trading con
 YOLO Random Strategy
 Bet a random percentage between a minimum and maximum each round:
 
-python
+```python
 def yolo_random_strategy(capital, t):
     return np.random.uniform(yolo_min_frac, yolo_max_frac)
+```
+
 This is intentionally unstable: sometimes you bet very small, sometimes very large.
 It shows how random, uncontrolled sizing can lead to large drawdowns and frequent near-ruin.
 
@@ -72,5 +74,5 @@ Sample equity curves for each strategy
 
 A histogram of final wealth for fixed vs YOLO
 
-# License
+## License
 This project is licensed under the MIT License. See the LICENSE file for details.
