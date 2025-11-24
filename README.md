@@ -40,6 +40,7 @@ Always bet the same percentage of your current bankroll:
 ```python
 def fixed_fraction_strategy(capital, t):
     return fixed_fraction  # e.g. 0.1 for 10%
+```
 This is similar to “bet 10% of your account on every trade” in a trading context.
 
 YOLO Random Strategy
