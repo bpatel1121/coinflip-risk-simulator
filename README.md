@@ -68,6 +68,7 @@ pip install numpy matplotlib
 From the project root:
 
 python coinflip_risk_sim.py
+
 This will run the Monte Carlo experiment, print summary statistics, and show:
 
 Sample equity curves for each strategy
